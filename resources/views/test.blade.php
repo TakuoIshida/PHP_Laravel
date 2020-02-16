@@ -64,8 +64,7 @@
         </style>
     </head>
     <body>
-        <h1>Laravel入門</h1>
-        <p>Laravel 基本学習</p>
-        現在の日時{{$now_date}}
+    @include('parts.header')
+        Top page
     </body>
 </html>
